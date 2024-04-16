@@ -1,0 +1,51 @@
+.container {
+  cursor: pointer;
+  width: 500px;
+  height: 60px;
+  border-bottom: 1px solid grey;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 100px;
+  font-size: 20px;
+}
+
+.content > button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+}
+
+.active_txt,
+.done_txt {
+  list-style-type: none;
+  width: 300px;
+}
+.active_txt > h2 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 18px;
+  word-wrap: break-word;
+}
+
+.done_txt > h2 {
+  margin: 0;
+  font-weight: 100;
+  font-size: 18px;
+  word-wrap: break-word;
+  color: grey;
+  text-decoration: line-through;
+}
+
+.btn_img {
+  width: 20px !important;
+  height: 20px !important;
+}
